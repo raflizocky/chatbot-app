@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Demo
 
-## Getting Started
+<a href="https://github.com/raflizocky/e-voting/blob/main/demo-img/Demo.md">View Demo Images</a>
 
-First, run the development server:
+## Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   Node.js >= 18.18
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Resources Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Model: [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. Clone the project.
 
-To learn more about Next.js, take a look at the following resources:
+2. Write your own `GEMINI_API_KEY` at `.env`. (You can use other AI Models)
+  
+3. Open terminal, then run:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```
+   npm i
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```
+   npm run start
+   ```
 
-## Deploy on Vercel
+4. Open `localhost:3000` at browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you encounter any issues or would like to contribute to the project, feel free to:
+
+-   Report any [issues](https://github.com/raflizocky/chatbot-app/issues)
+-   Submit a [pull request](https://github.com/raflizocky/chatbot-app/pulls)
+-   Participate in [discussions](https://github.com/raflizocky/chatbot-app/discussions) for any questions, feedback, or suggestions
+
+## License
+
+Code released under the [MIT License](https://github.com/raflizocky/chatbot-app/blob/master/LICENSE).
