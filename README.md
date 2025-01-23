@@ -1,6 +1,6 @@
 ## Demo
 
-<a href="https://github.com/raflizocky/chatbot-app/blob/main/demo-img/Demo.md">View Demo Images</a>
+<a href="https://github.com/raflizocky/chatbot-app/blob/master/demo-img/Demo.md">View Demo Images</a>
 
 ## Prerequisites
 
